@@ -1,0 +1,325 @@
+/* ALL FONTS: (see font folder) */
+@font-face {
+font-family: "ZSlab Regular";
+src: url("../fonts/ZillaSlabHighlight-Regular.ttf") format("truetype");
+}
+@font-face {
+font-family: "ZSlab Bold";
+src: url("../fonts/ZillaSlabHighlight-Bold.ttf") format("truetype");
+}
+@font-face {
+font-family: "TrainOne";
+src: url("../fonts/TrainOne-Regular.ttf") format("truetype");
+}
+@font-face {
+font-family: "Nunito Regular";
+src: url("../fonts/NunitoSans-Regular.ttf") format("truetype");
+}
+@font-face {
+font-family: "Nunito Black";
+src: url("../fonts/NunitoSans-Black.ttf") format("truetype");
+}
+@font-face {
+font-family: "Nunito SemiBold";
+src: url("../fonts/NunitoSans-SemiBold.ttf") format("truetype");
+}
+@font-face {
+font-family: "Nunito Light";
+src: url("../fonts/NunitoSans-Light.ttf") format("truetype");
+}
+@font-face {
+font-family: "Barcode";
+src: url("../fonts/LibreBarcode39Text-Regular.ttf") format("truetype");
+}
+html{
+  background-color:#995d7a ;
+  margin:0;
+  color: white;
+  min-width: 1000px;
+
+}
+
+header {
+  background:#f7c7c7;
+  padding-top:20px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  font-family: "Barcode",Verdana, Tahoma, sans-serif,sans-serif !important;
+  width: 100%;
+  -moz-box-shadow: inset 0 0 3px #c9c9c9;
+  -webkit-box-shadow: inset 0 0 3px #c9c9c9;
+  box-shadow: inset 0 0 3px #c9c9c9;
+  color: #2E5559;
+}
+
+header h1{
+  font-weight: normal;
+  font-size: 4em;
+  font-weight: 500;
+  margin:0;
+  padding-left: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  color: #860004;
+}
+nav{
+  margin:0;
+  font-size:  3em;
+  font-weight: 550;
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+}
+nav a{
+  margin-left: 20px;
+}
+header a{
+  text-decoration: none;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 10px;
+  margin:0;
+}
+
+
+body{
+   font-family: "Nunito SemiBold",Verdana, sans-serif;
+  margin:0;
+}
+main{
+  max-width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+main h1{
+  font-family: "Nunito Black",sans-serif;
+}
+
+h2{
+  font-family: "Nunito Black", Verdana, sans-serif;
+  font-size: 30px;
+  padding-left: 10px;
+  margin:0;
+  padding-bottom: 0px;
+}
+
+
+p {
+  font-family: "Nunito SemiBold",Verdana, sans-serif;
+  padding: 10px;
+  font-size: large;
+
+}
+
+div{
+  margin:0px;
+  padding:0px;
+}
+
+
+.hidden{
+  display: none;
+}
+.feedback{
+  color:#860004;
+}
+.center {
+  margin-top: 10px;
+  padding: 5px;
+  max-width: 1070px;
+  width: 100%;
+  margin-left:auto;
+  margin-right: auto;
+  background:#f7c7c7;
+  color: #27363B;
+}
+
+.center h2{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.center p, label{
+  padding-left: 20px;
+}
+
+footer{
+  padding: 10px;
+  margin:0;
+  background:  #ffffff;
+  text-align: right;
+  color: #54575a;
+}
+/* Classes*/
+/* Top classes */
+
+.horizontal{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.horizontal h1{
+  flex:2;
+}
+.horizontal nav {
+  flex:auto;
+  margin-top:0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-right: 20px;
+}
+
+.horizontal ul {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.horizontal nav li {
+   display: inline-block;
+   flex:1;
+}
+
+
+.introduction_menu{
+  max-width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  background:  inherit;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+nav.vert{
+  text-align: center;
+  flex:auto;
+
+}
+nav.vert ul {
+display: flex;
+flex-direction: column;
+color: #ffffff;
+ margin-left: 30px;
+ height: 9em;
+border-radius:  80px 0px 80px 0px ;
+-webkit-border-radius: 80px 0px 80px 0px ;
+-moz-border-radius: 80px 0px 80px 0px ;
+background:#27363B;
+min-width: 150px;
+
+}
+nav.vert li{
+  padding-top: 5px;
+  flex: auto;
+}
+nav.vert a:hover{
+  color: #EFA618;
+}
+
+
+.table_head th{
+  text-align: left;
+}
+table .rating_item, .rating, .links{
+  text-align: center !important;
+}
+table th, table td, form, .song_form{
+  padding-right:5px;
+  padding-left: 5px;
+
+}
+.links_item{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+
+  max-width: 100px;
+}
+table tr{
+  margin-top: 15px;
+}
+table th{
+  font-family: "Nunito Black",Verdana, sans-serif;
+  font-size: 1.2em;;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.input, .submit_button, .search_bar {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row !important;
+}
+#search{
+  padding: 8px;
+  margin: 5px;
+}
+label, input, #add_rating, .submit_button div{
+  padding: 5px;
+  margin: 5px;
+  flex: 1;
+
+}
+ .submit_button button {
+   margin:10px
+ }
+label, .submit_button div{
+ max-width: 20%;
+}
+input,#add_rating{
+  margin-left: 10px;
+}
+
+#add_artist{
+  max-width: 400px;
+}
+
+#add_album{
+  max-width: 450px;
+}
+#add_title{
+  max-width: 500px;
+}
+#add_rating{
+  max-width:100px;
+}
+
+.submit_button button {
+  font-size: 15px;
+  padding:10px !important;
+  max-width:200px;
+}
+
+/* .dropdown {
+  display: none;
+  background-color:#f7c7c7 ;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown a {
+  color: black;
+  padding: 16px 16px;
+  text-decoration: none;
+  display: block;
+  margin: 0 !important;
+} */
+
+/* Show the dropdown onhover */
+/* .drpmenu:hover .dropdown {
+  display: block;} */
