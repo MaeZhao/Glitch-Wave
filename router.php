@@ -55,7 +55,7 @@ function match_routes($uri, $routes)
 }
 
 // Grabs the URI and breaks it apart in case we have querystring stuff
-$request_uri = explode('?', $_SERVER["PHP_SELF"], 2)[0];
+$request_uri = explode('?', $_SERVER["REQUEST_URI"], 2)[0];
 error_log('routing: ' . $request_uri);
 
 if (preg_match('/^\/public\//', $request_uri)) {
