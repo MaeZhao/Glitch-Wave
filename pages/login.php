@@ -22,7 +22,7 @@ include("includes/init.php");
     <div class="center">
       <?php if (!is_user_logged_in()) { ?>
         <h2>Log In</h2>
-        <p class="hint"><span class="slant">*Admin username: kyle*</span></p>
+        <p class="hint"><span class="slant">*Admin username: luis*</span></p>
         <p class="hint"><span class="slant">*Admin password: monkey*</span></p>
         <?php echo_login_form('/login', $session_messages); ?>
     </div>
