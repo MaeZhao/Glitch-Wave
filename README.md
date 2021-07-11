@@ -20,6 +20,7 @@ View all entries for a tag:
 
 View a single entry and all the tags for that entry:
 1. Click on song title in table located in /home
+1.1. All songs with a coresponding "Source" contain a playable mp3
 
 How to insert and upload a new entry:
 1. Go to /home
