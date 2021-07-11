@@ -7,7 +7,7 @@ A simple music documentation, upload and streaming webpage. Upload capabilities 
     <li>View all capabilities see the project <a href="https://github.com/MaeZhao/Glitch-Wave/new/main?readme=1#all-webpage-capabilities--step-by-step-instructions">README here</a>.</li>
     <li>View the design process containing design sketches, persona outlines, user testing, etc., <a href="https://github.com/MaeZhao/Glitch-Wave/blob/main/documents/design-journey.md">here</a>. 
     </li>
-    <li>View the live site <a href="https://young-forest-50901.herokuapp.com/">here</a>, or click on the live image. 
+    <li>View the live site <a href="https://young-forest-50901.herokuapp.com/">here</a>. 
     </li>
 </ul>
 
